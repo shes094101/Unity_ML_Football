@@ -42,7 +42,7 @@ public class robot : Agent
         //指定座標
         transform.position = posRobot;
 
-        Vector3 posBall = new Vector3(Random.Range(-2f, 2f), 0.1f, Random.Range(-1f, 2f));
+        Vector3 posBall = new Vector3(Random.Range(-0f, 0f), 0.1f, Random.Range(-1f, 2f));
         rigBall.position = posBall;
 
         //足球未進門
